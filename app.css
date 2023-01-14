@@ -492,4 +492,13 @@ font-size: 14px;
     height: 30vh;
     border: 2px solid #cda45e;
 }
+
+.home-menu h1{
+    font-size:45px ;
+    display: flex;
+    flex-direction: column;
+}
+.home h5{
+    font-size: 15px;
+}
  }
