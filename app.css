@@ -136,7 +136,7 @@ color: #cda45e;
     background-attachment: fixed;
     padding: 100px 13%;
     display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+	grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     gap: 2rem;
 }
 .about-text {
@@ -170,7 +170,7 @@ padding: 10px;
 .cards{
     padding-top: 50px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     gap: 2rem;
     
 }
@@ -217,7 +217,7 @@ padding: 10px;
     padding-top: 50px;
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     gap: 2rem;
     text-align: center;
     align-items: center;
@@ -325,7 +325,7 @@ h2{
 
 .chef{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     gap: 2rem;
     padding-top: 20px;
 }
@@ -500,5 +500,6 @@ font-size: 14px;
 }
 .home h5{
     font-size: 15px;
+    padding: 0px 12%;
 }
  }
