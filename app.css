@@ -1,0 +1,495 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: #1a1814;
+}
+
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.605);
+    padding: 0px 13%;
+}
+
+.navbar a{
+    color: aliceblue;
+    padding: 10px;
+    text-shadow: 10px 10px 10px #000;
+}
+
+.navbar a:hover{
+    color: #cda45e;
+}
+
+nav h1{
+    font-size: 26px;
+    font-weight: 400;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+
+.btn button{
+    background-color: transparent;
+    border: 2px solid #cda45e;
+    padding: 3px 30px;
+    border-radius: 50px ;
+}
+
+
+.nav-superior{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0px 13%;
+    margin-top: 10px;
+    font-size: 13px;
+   
+    
+}
+
+.nav-superior div a{
+   padding: 5px;  
+   color: #ffff;
+}
+
+.nav-superior  a{  
+    color: #ffff;
+ }
+
+ .nav-superior  a:hover{  
+    color: #cda45e;
+ }
+
+ .dropdown-menu{
+    background-color:#cda45e4a;
+ }
+
+ header{
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    transition: all 0.25s;
+}
+
+ /*home--------------------------------------------*/
+
+ .home{
+    
+    position: relative;
+    background-image: url(./img/hero-bg.jpg);
+    background-size: cover;
+    backdrop-filter: fixed;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .home-menu{
+    color: #ffff;
+ }
+ 
+ 
+ .home-menu h1{
+    transition: all 3.25s;
+    font-weight: 800;
+    font-size: 60px;
+    text-shadow: 10px 10px 10px #000;
+    font-family:'Times New Roman', Times, serif;
+    -webkit-transition: all 3.25s;
+    -moz-transition: all 3.25s;
+    -ms-transition: all 3.25s;
+    -o-transition: all 3.25s;
+}
+ 
+ .home-menu span{
+color: #cda45e;
+
+ }
+
+ .home-menu a{
+    
+    color: #ffff;
+    font-size: 13px;
+    font-weight: 600;
+    text-shadow: 10px 10px 10px #000;
+ }
+ .home-menu a:hover{
+    color: #cda45e;
+ }
+
+/*about-----------------------------------------*/
+.about{
+    background-image: url(./img/about-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 100px 13%;
+    display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    gap: 2rem;
+}
+.about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+width: 100%;
+color: #ffff;
+border: 2px solid #cda45e;
+padding: 10px;
+}
+.about-img img{
+    border: 2px solid #cda45e;
+    width: 100%;
+    border-radius: 10px ;
+}
+
+/*elegirnos-----------------------------------------*/
+.elegirnos{
+    padding: 100px 13%;
+    text-align: center;
+    background-color: #121010c9;
+    color: #ffff;
+    border: 1px solid #cda45e;
+    width: 99%;
+}
+.elegirnos h5{
+    color: #cda45e;
+}
+
+.cards{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    gap: 2rem;
+    
+}
+
+.card:hover{
+    background-color: #cda45e;
+    color: #ffff;
+}
+
+.card{
+    border: 1px solid #cda45e;
+    padding: 20px;
+    background-color: #1a1814;
+    color: #ffff;
+}
+
+
+
+.card p{
+    font-size: 13px;
+}
+
+.card h3{
+    font-size: 25px;
+}
+
+/*menu-------------------------------------------------------*/
+.menu{
+    background-color: #000;
+    text-align: center;
+    color: #ffff;
+    width: 100%;
+    padding: 50px 15%;
+}
+
+.menu a{
+    color: #cda45e;
+}
+
+.menu a:hover{
+    color: #ffff;
+}
+.precios{
+    padding-top: 50px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    gap: 2rem;
+    text-align: center;
+    align-items: center;
+}
+
+
+.precios div img{
+    width: 50px;
+    border-radius: 100px;
+    border: 5px solid #000;
+    height: 50px;
+}
+
+.menus{
+    display: flex;
+    width: 100%;
+}
+
+.menus:hover{
+    background-color: #cda45e73;
+    border-radius: 10px;
+    transition: all 0.25s;
+    color: #ffff;
+}
+
+.menus h6{
+font-size: 14px;
+}
+
+.menus p{
+    font-size: 13px;
+}
+
+.menus span{
+    color: #cda45e;
+}
+
+/*eventos carrusel---------------------------------*/
+.eventos{
+    padding-top: 50px;
+    background-image: url(./img/events-bg\ -\ fondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+#carouselExample{
+    padding: 0px 20%;
+    width: 100%;
+    height: 50vh;
+}
+
+
+#carouselExample img{
+    border-radius: 10px;
+    width: 50%;
+    height: 60vh;
+    border: 2px solid #cda45e;
+}
+
+.titulo{
+    color: #cda45e;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+h2{
+    color: #ffff;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+/*galeria--------------------------------------------*/
+.galeriaa{
+    padding: 100px 1%;
+    text-align: center;
+    background-color: #000000;
+}
+.galeria{
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    
+}
+
+.galeria-card img{
+    width: 100%;
+    transition: all 0.25s;
+    border: 2px solid #cda45e;
+}
+
+.galeria-card img:hover{
+    transform: translateY(-15px);
+}
+
+/*chef--------------------------------------------*/
+
+.chefs{
+    text-align: center;
+    padding: 10px 13%;
+    background-color: #000;
+}
+
+.chef{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    gap: 2rem;
+    padding-top: 20px;
+}
+.card-chef {
+    border-radius: 10px;
+   background-color: #cda45e69;
+   color: #ffff;
+   transition: all 0.25s;
+   border: 2px solid #cda45e;
+}
+
+.card-chef:hover{
+    transform: translateY(-10px);
+}
+.card-chef img{
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+}
+.card-chef div{
+    padding: 10px;
+}
+
+.redes-sociales a{
+    color: aliceblue;
+    padding: 10px;
+}
+
+.redes-sociales a:hover{
+   background-color: #ffff;
+   color: #000;
+   border-radius: 10px;
+}
+
+/*conatctos-----------------------------------*/
+.conatctos{
+    padding: 100px 5%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.413);
+}
+iframe{
+    padding-top: 50px;
+    width: 100%;
+    border-radius: 10px;
+    height: 40vh;
+}
+
+.contacto{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: #cda45e57;
+    padding: 10px;
+    border-radius: 10px;
+    color: #ffff;
+    border: 2px solid #cda45e;
+    
+}
+.contacto .btn{
+    background-color: #ffff;
+    color: #000;
+}
+
+.contacto input{
+background-color: rgba(0, 0, 0, 0.413);
+border: 2px solid #cda45e;}
+
+.contacto textarea{
+    background-color: rgba(0, 0, 0, 0.413);
+    border: 2px solid #cda45e;
+}
+
+
+/*footer----------------------------------------*/
+.footer{
+    width: 99%;
+    border: 1px solid #cda45e;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 4rem;
+    padding: 50px 13%;
+    color: #ffffff;
+}
+
+.footer h1{
+    font-size: 26px;
+    font-weight: 400;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+.footer a{
+    color: #ffffff;
+    font-size: 13px;
+
+}
+
+.footer p{
+    font-size: 13px;
+}
+
+.footer div{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer a:hover{
+    color: #cda45e;
+    
+}
+
+
+
+.Copyright{
+    background-color: #000000;
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.Copyright img{
+    width: 50px;
+}
+
+.Copyright p{
+color: #ffffff;
+padding-top: 10px;
+font-size: 14px;
+}
+
+
+
+@media (max-width: 600px){
+
+	header{
+       
+        background-color: #1515159e;
+       
+    }
+    .navbar{
+        padding: 0px 0%;
+    }
+
+    .navbar button{
+        background-color: #cda45e5b;
+    }
+
+    
+.navbar h1{
+    width: 160px;
+}
+
+
+#carouselExample{
+    padding: 60px 10%;
+    width: 100%;
+    height: 50vh;
+    
+}
+
+
+#carouselExample img{
+    border-radius: 10px;
+    width: 100%;
+    height: 30vh;
+    border: 2px solid #cda45e;
+}
+ }
